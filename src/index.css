@@ -1,0 +1,22 @@
+@import "tailwindcss";
+body{
+    background-color: rgba(68, 154, 230, 0.349);
+}
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #3b82f6; /* Blue color */
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2563eb; /* Darker blue on hover */
+  }
+  
